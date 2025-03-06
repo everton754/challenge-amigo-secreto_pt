@@ -160,3 +160,36 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilos para o botão de remoção */
+.btn-remover {
+  background-color: #ff4d4d; /* Vermelho */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 6px; /* Reduzido o padding */
+  font-size: 12px; /* Reduzido o tamanho da fonte */
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+.btn-remover:hover {
+  background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
+
+/* Estilos para a animação de remoção */
+.list-item {
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Transições para opacidade e transformação */
+  opacity: 1;
+  transform: translateX(0); /* Posição inicial */
+}
+
+.list-item.remove-animation {
+  opacity: 0; /* Fica transparente */
+  transform: translateX(-20px); /* Move para a esquerda */
+}
+
+#listaAmigos{
+  list-style: none;
+}
