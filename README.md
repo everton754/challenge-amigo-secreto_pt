@@ -42,6 +42,7 @@ Interface do Amigo Secreto
 ### 1. Adicionar Participantes
 - Digite o nome do participante no campo "Digite o nome".
 - Clique em "Adicionar" para incluir o nome na lista.
+  
   ![Descrição da imagem](assets/inserir_nome.png)
 
 ### 2. Remover Participantes
@@ -75,14 +76,15 @@ amigo-secreto/
 ---
 ## Status do Projeto ⭐
 
-Projeto concluído! ✅
+Projeto concluído ✅
+
 ---
 
 ## 💡 Melhorias Futuras
 
 - Permitir salvar a lista de participantes localmente.
 - Compartilhar os resultados por meio de links ou QR codes.
-- Adicionar suporte a temas personalizados.
+- Adicionar suporte a temas personalizados. Projeto concluído
 
 ---
 
